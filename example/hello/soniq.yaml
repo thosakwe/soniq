@@ -1,0 +1,7 @@
+default:
+  url: http://localhost:3000
+  command: dart io.dart
+  duration: 5000
+
+angel:
+  command: dart angel.dart

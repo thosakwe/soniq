@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Hello (Angel)" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" singleton="true">
+    <option name="arguments" value="-p angel" />
+    <option name="checkedMode" value="false" />
+    <option name="envs">
+      <entry key="ANGEL_ENV" value="production" />
+    </option>
+    <option name="filePath" value="$PROJECT_DIR$/bin/soniq.dart" />
+    <option name="workingDirectory" value="$PROJECT_DIR$/example/hello" />
+    <method />
+  </configuration>
+</component>
