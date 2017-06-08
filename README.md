@@ -86,7 +86,7 @@ main() async {
   var runner = new Runner(config);
   var report = await runner.run();
   
-  print('Average latency (ms): ' + report.averageLatency.toStringAsFixed(2));
+  print('Average latency (microseconds): ' + report.averageLatency.toStringAsFixed(2));
 }
 ```
 
