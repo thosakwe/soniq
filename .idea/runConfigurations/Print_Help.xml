@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Print Help" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" singleton="true">
+    <option name="arguments" value="-h" />
+    <option name="checkedMode" value="false" />
+    <option name="filePath" value="$PROJECT_DIR$/bin/soniq.dart" />
+    <method />
+  </configuration>
+</component>
