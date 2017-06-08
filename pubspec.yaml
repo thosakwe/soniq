@@ -1,5 +1,5 @@
 name: soniq
-version: 0.0.0
+version: 0.0.1
 description: Multithreaded, futuristic HTTP benchmarking tool.
 author: Tobe O <thosakwe@gmail.com>
 homepage: https://github.com/thosakwe/soniq

@@ -164,7 +164,7 @@ void startClient(
     var rs = await rq.close();
     sw.stop();
     result.totalRequests++;
-    result.latencies.add(sw.elapsedMilliseconds);
+    result.latencies.add(sw.elapsedMicroseconds);
     result.transfer += await rs.length;
     if (!done) startClient(client, url, headers, result);
   }).catchError((e, st) {

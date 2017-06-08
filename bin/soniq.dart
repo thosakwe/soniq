@@ -45,8 +45,13 @@ main(List<String> args) async {
       sink.writeln('Total requests: ${report.totalRequests}');
       sink.writeln(
           'Requests per second: ' + requestsPerSecond.toStringAsFixed(2));
-      sink.writeln(
-          'Average latency: ${report.averageLatency.toStringAsFixed(2)}ms');
+
+      if (report.averageLatency >= 1000)
+        sink.writeln(
+            'Average latency: ${(report.averageLatency / 1000).toStringAsFixed(2)}ms');
+      else
+        sink.writeln(
+            'Average latency: ${report.averageLatency.toStringAsFixed(2)}us');
       sink.writeln('Total bytes read: ${report.transfer}');
 
       if (report.socketErrors > 0)
